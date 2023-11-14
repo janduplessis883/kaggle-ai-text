@@ -6,8 +6,9 @@ with open('requirements.txt') as f:
 requirements = [x.strip() for x in content]
 
 setup(
-    name='autonote',
-    description="Code snippet manager for Jupyter Notebook & Notebook enhancements + data science helper functions",
+    name='AI-detection',
+    description="Kaggle Competition",
     packages=find_packages(),  # It will find all packages in your directory
-    install_requires=requirements  # This is the key line to install dependencies
+    install_requires=requirements,  # This is the key line to install dependencies
+    version='0.0.1'
 )
