@@ -1,2 +1,2 @@
-# **Kaggle AI-Detectione**
+# **Kaggle AI-Detection**
 
